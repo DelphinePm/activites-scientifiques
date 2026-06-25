@@ -1,0 +1,32 @@
+:root{--rose:#b43767;--rose-dark:#8f254d;--ink:#2b2b2f;--muted:#6f6f77;--line:#e8e1e5;--bg:#faf8f9;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Aptos,Inter,'Helvetica Neue',Arial,sans-serif;line-height:1.45}
+.page{width:min(980px,calc(100% - 32px));margin:40px auto}.hero{border-top:10px solid var(--rose);padding:34px 0 26px}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;color:var(--rose);font-size:13px;font-weight:700;margin:0 0 8px}
+h1{font-size:52px;line-height:1;margin:0;letter-spacing:-.03em}.subtitle{color:var(--muted);font-size:18px;margin:14px 0 0}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:24px 0 28px}.metrics div{background:var(--card);border:1px solid var(--line);padding:22px}
+.metrics strong{display:block;color:var(--rose);font-size:44px;line-height:1}.metrics span{display:block;margin-top:8px;color:var(--muted)}
+.section-title{margin:34px 0 12px;font-size:24px;border-bottom:2px solid var(--rose);padding-bottom:8px}
+.card{display:grid;grid-template-columns:92px 1fr;gap:22px;background:var(--card);border:1px solid var(--line);margin:14px 0;padding:22px}
+.highlight{border-left:8px solid var(--rose)}.muted{opacity:.72}.icon,.year{color:var(--rose);font-weight:800;font-size:32px;line-height:1}.year{font-size:26px}
+h2,h3,p{margin-top:0}h2{font-size:20px;margin-bottom:6px}h3{font-size:18px;margin-bottom:8px}.date{color:var(--muted);font-size:14px;margin-bottom:8px}
+.button,.link{display:inline-block;color:var(--rose-dark);font-weight:700;text-decoration:none;border-bottom:2px solid var(--rose);padding-bottom:2px;margin-top:4px}
+.button{background:var(--rose);color:white;border:0;padding:10px 14px;margin-top:8px}.button.secondary{background:transparent;color:var(--rose-dark);border:1px solid var(--rose)}
+footer{color:var(--muted);border-top:1px solid var(--line);margin-top:28px;padding-top:16px;font-size:13px}@media(max-width:720px){.metrics{grid-template-columns:1fr}.card{grid-template-columns:1fr}h1{font-size:38px}}
+.poster {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  transition: 0.25s;
+  display: block;
+}
+
+.poster:hover {
+  transform: scale(1.015);
+  box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
